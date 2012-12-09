@@ -1,7 +1,7 @@
 all: SchedSim
 
 SchedSim:
-	g++ -g SchedSim.cpp -o SchedSim
+	g++ SchedSim.cpp -o SchedSim
 
 clean:
 	rm SchedSim
